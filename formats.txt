@@ -1,0 +1,18 @@
+URLs: 
+bladder - http://{hostsite_name}/predict_bladder
+rectum - http://{hostsite_name}/predict_rectum
+
+
+post api format:
+
+{
+    "values" : [list of 6 values]
+}
+
+get api format:
+{
+    "prediction" : //ans
+}
+
+header:
+    'Content-Type: application/json'
